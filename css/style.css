@@ -109,7 +109,7 @@ footer{
 
 .gallery{
   max-width: 1280px;
-  margin: 60px auto;
+  margin: 80px auto;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(autofit,minmax(300px,1fr));
@@ -144,7 +144,7 @@ footer{
 /* ---Gear I use page--- */
 .gears{
   max-width: 1020px;
-  margin: 60px auto 0 auto;
+  margin: 80px auto 0 auto;
   letter-spacing: 0.05em;
   line-height: 150%;
 }
@@ -160,7 +160,12 @@ footer{
 }
 
 .gears a{
-  text-decoration: underline;
+  border-bottom: 1px solid #27272775;
+}
+
+.gears a:hover{
+  opacity: 0.7;
+  transition: 0.3s;
 }
 
 .gears ul{
@@ -175,7 +180,7 @@ footer{
   display: flex;
   align-items: center top;
   justify-content: space-between;
-  margin: 60px auto;
+  margin: 80px auto;
 }
 
 .camera-1row{
@@ -183,6 +188,10 @@ footer{
   align-items: center top;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.camera-text{
+  text-indent: 50px;
 }
 
 .lenses-text, .drone-text, .others-text{
@@ -200,7 +209,7 @@ footer{
   display: flex;
   align-items: center top;
   justify-content: space-between;
-  margin: 60px auto;
+  margin: 80px auto;
 }
 
 .contact-text{
@@ -212,8 +221,8 @@ footer{
 
 /* ---About page--- */
 .about{
-  max-width: 1020px;
-  margin: 60px auto;
+  max-width: 760px;
+  margin: 80px auto;
 }
 
 .about h2{
@@ -225,6 +234,7 @@ footer{
 
 .about-photo{
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .about-text{
